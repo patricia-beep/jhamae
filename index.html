@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5em;
+  color: rgb(0, 0, 0);
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+
+
+/* TABLE FOR PRODUCTS */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+td, th, tr {
+  border: 2px solid #000000;
+  text-align: center;
+  padding: 5px;
+}
+
+td.img {
+  text-align: center;
+  padding: 4px;
+}
+
+/*
+tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+/* CSS for Contact page -- Form */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: burlywood;
+  padding: 20px;
+}
+
+#Home {background-color: rgb(207, 102, 102);}
+#Home {background-repeat: no-repeat;}
+#Home {background-position: center top;}
+
+#About {background-color: violet;}
+#About {background-image: url(gadgets.jpg);}
+#About{background-repeat: no-repeat;}
+#About{background-position: center top;}
+#About{background-size: 1500px 1000px;}
+
+
+#Products {background-color: Brown(69, 87, 229);}
+#Products {background-image: url(image.jpg);}
+#Products {background-repeat: repeat;}
+#Contact {background-color: burlywood;}
+#Gallery {background-color: rgb(204, 116, 226);}
+
+
+</style>
+
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'black')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('About', this, 'black')" >About</button>
+<button class="tablink" onclick="openPage('Products', this, 'black')">Products</button>
+<button class="tablink" onclick="openPage('Contact', this, 'black')">Contact</button>
+<button class="tablink" onclick="openPage('Gallery', this, 'black')">Gallery</button>
+
+<div id="Home" class="tabcontent">
+ 
+
+ 
+  <!-- home -->
+
+  <h1 align = "center">Jhamae's Handmade Products</h1>
+<form  style =" background-color: #391835;  padding: 10px; "> 
+  <h4 align = "center">
+    Welcome to Jhamae's Handmade Products Online Store. You are freely to browse and shop here. 
+
+    <br>
+    <br>
+
+    
+  </h4>
+</form>
+
+</div>
+
+<div id="About" class="tabcontent">
+  <h2 align = "center">About</h2>
+  
+  <p>A handicraft, sometimes more precisely expressed as artisanal handicraft or handmade, is any of a wide variety of 
+    types of work where useful and decorative objects are made completely by one’s hand or by using only simple,
+     non-automated related tools like scissors, carving implements, or hooks. It is a traditional main sector of craft 
+     making and applies to a wide range of creative and design activities that are related to making things with one's hands
+      and skill, including work with textiles, moldable and rigid materials, paper, plant fibers, clay, etc. 
+    <br>
+    <br> 
+    There are many great benefits of buying handmade products. They aren’t just of great quality and last longer but also 
+    have many more surprising benefits. Moreover, it isn’t just beneficial to you as a buyer but also to the manufacturer or 
+    the business owner – who in most cases is a poor artisan. 
+    <br>
+    <br> 
+    Why Should You Buy Handmade Products?</p>
+    <br>
+    1. Handcrafted products are good for the environment
+    Since most handmade products do not require a large factory or production units, they are actually very good for the environment. 
+    Such products are mostly sustainably made in small studios or workshops or even in people’s own homes. As a result, they also 
+    require lesser energy and natural resources to be produced.
+    <br>
+    <br>
+    2.  When you shop handmade, you support the local economy
+    When you buy a product that is handcrafted or handmade, you directly support the artist who has made it. While it may not 
+    appear as directly local to you, the money stays within the country.
+    <br>
+    <br>
+    3. Each handcrafted product is unique
+    Unlike mass-produced items, each and every handcrafted product is unique. No two products are exactly alike and that is what
+     makes these products so special.
+     <br>
+     <br>
+     4. Handcrafted products withstand time
+     This is another one of the many reasons for why you need to choose handmade products. While most of the mass-produced
+      items promote the culture of ‘throw away’ after the products get a little damaged or after using them for some time, that 
+      is not the case with handmade products. 
+  </div>
+
+<div id="Products" class="tabcontent">
+  <form style =" background-color: #0d299c;  padding: 10px;"
+ > 
+    
+      <h2 align ="center"> Description </h2>
+
+        <table>
+          <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Product Description</th>
+          </tr>
+
+          <tr>
+            <td>Bracelets</td>
+            <td> ₱300.00</td>
+            <td text-align = "left"> flawless, unblemished pearls. <br> 
+              handsome glossy stones with intriguing matrix.<br>
+              string it on “graceful diaphanous silks.<br>
+              lipstick red” for a sensual glamorous piece<br>
+              delicate dreamy blue” for a story bracelet<br>
+              
+          </tr>
+
+          <tr>
+            <td>Anklets</td>
+            <td> ₱250.00</td>
+            <td>This type of special handmade <br>
+              leather anklets appears <br>
+              marvelous when worn by men on <br>
+              any occasion. The anklets have<br>
+               two layers kneaded together and <br
+               in between sparkling white oval <br>
+               shaped gemstones lend a stylish <br>
+               appearance to these string ankles. <br>
+          </tr> 
+
+          <tr>
+            <td>Necklaces</td>
+            <td> ₱1,000.00</td>
+            <td> Heart Shaped Diamond Pendant.<br>
+              Intriguing <br>
+              fascinating<br>
+              tantalizing<br>
+              Delightful<br>
+              exquisite<br>
+          </tr> 
+
+          <tr>
+            <td>Rings</td>
+            <td> ₱500.00</td>
+            <td>shapely<br>
+              alluring<br>
+              sparkling <br>
+              magnificent <br>
+          </tr> 
+
+          
+
+
+        </table>
+  </form>
+</div>
+
+<div id="Contact" class="tabcontent">
+  
+
+  <h2 align = "center"> LOGIN FIRST</h2>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      
+    </select>
+
+   <!-- <input type="submit" value="LOGIN"> -->
+    <button onclick="myFunction()">LOGIN</button>
+  </form>
+
+</div>
+
+<div id="Gallery" class="tabcontent">
+  <h3>Gallery</h3>
+  <p>You are free to choose. Enjoy Shopping!!!</p>
+
+  <hr>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="vvvv.jpg">
+        <img src="vvvv.jpg" alt="Cinque Terre" width="400" height="400">
+      </a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="th.jpg">
+        <img src="th.jpg" alt="Cinque Terre" width="400" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="efe0240371e13329cd72bf647dc27a75 - Copy.jpg">
+        <img src="efe0240371e13329cd72bf647dc27a75 - Copy.jpg" alt="Cinque Terre" width="400" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="1-pcs-Circle-color-Fashion-Natural-Wood-Rings-Handmade-Rings-for-Women-Fashion-Jewelry - Copy.webp">
+        <img src="1-pcs-Circle-color-Fashion-Natural-Wood-Rings-Handmade-Rings-for-Women-Fashion-Jewelry - Copy.webp" alt="Cinque Terre" width="400" height="400">
+      </a>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+// function submit 
+
+function myFunction() {
+  window.alert("Thank you for Submitting your Feedback");
+  document.getElementById("demo").innerHTML = txt;
+}
+
+</script>
+   
+</body>
+</html> 
